@@ -1,17 +1,11 @@
-html {
-    box-sizing: border-box;
-}
-
-*,
-*:before,
-*:after {
-	box-sizing: inherit;
-}
-
 body {
-    margin: 0;
+    border: 25px solid #E1E7FA;
+    height: 5000px;
     font-family: sans-serif;
+    margin: 0;
 }
+
+/* Navigation Bar */
 
 .topper {
     position: absolute;
@@ -23,18 +17,134 @@ body {
     margin: 0 auto;
 }
 
-.company {
-    float: right;
+.company h1 {
+    position: fixed;
+    padding-bottom: 0;
 }
 
 .navbar {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 4rem;
+}
+
+nav ul li {
+    margin: 0 50px;
+    font-size: .8rem
 }
 
 li {
     list-style: none;
+}
+
+#butn-in {
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 30px;
+    background: #000;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+  }
+
+.butn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 12px;
+    background: #0828CC;
+    padding: 15px 22px 15px 22px;
+    text-decoration: none;
+  }
+
+  /* Banner */
+
+.banner {
+    background: #E1E7FA;
+    height: 800px;
+    width: 1800px;
+    position: absolute;
+    margin-left: 75px;
+}
+
+.text {
+    position: relative;
+    height: 400px;
+    width: 600px;
+    margin: 200px 0 0 300px;
+}
+
+.text h1 {
+    font-size: 4rem;
+}
+
+.text p {
+    line-height: 25px;
+    margin-bottom: 50px;
+}
+
+
+.butn-2 {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 10px;
+    background: #F80551;
+    padding: 18px 25px 18px 25px;
+    text-decoration: none;
+    }
+    
+/* underbanner */
+
+.text-box {
+    height: 550px;
+    width: 1250px;
+    background: #fbfbfb;
+    position: absolute;
+    margin: 900px 0 0 600px;
+}
+
+.better-text h1 {
+    padding: 100px 0 0 150px;
+    font-size: 3.7rem;
+}
+
+.better-text p {
+    padding-left: 150px;
+    line-height: 25px;
+}
+
+.little-img {
+    height: 200px;
+    width: 200px;
+    background: indianred;
+    position: absolute;
+    margin: 1000px 0 0 400px;
+}
+
+/* library */
+
+.library {
+    height: 500px;
+    width: 100%;
+    background: #ffffff;
+    position: absolute;
+    margin: 1500px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.library h2 {
+    font-size: 2rem;
 }
 
 /* html {
